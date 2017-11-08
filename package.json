@@ -1,0 +1,26 @@
+{
+  "name": "wikiapi",
+  "version": "1.0.0",
+  "description": "get infobox informtion from wikipedia API",
+  "main": "app.js",
+  "dependencies": {
+    "wiki-infobox-parser": "^0.1.11",
+    "wiki-infobox": "^0.4.0",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haidedang/wikiInfo.git"
+  },
+  "author": "HaideDang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haidedang/wikiInfo/issues"
+  },
+  "homepage": "https://github.com/haidedang/wikiInfo#readme"
+}
