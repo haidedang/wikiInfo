@@ -53,7 +53,10 @@ var server = http.createServer(function(request, response){
 
 });
 
-server.listen(8000, '0.0.0.0');
-console.log("Webservice running on port 8000");
+var port = process.env.PORT || 8080;
+
+server.listen(port, function() {
+    console.log('Our app is running on http://localhost:' + port);
+});
 
 // http.createServer(app.handleRequest).listen(8000);
